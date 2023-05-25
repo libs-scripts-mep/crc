@@ -1,6 +1,6 @@
 {
   "name": "@libs-scripts-mep/crc",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Abra o terminal, e na pasta do script, execute:",
   "main": "CRC.js",
   "scripts": {
