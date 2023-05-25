@@ -1,5 +1,5 @@
 {
-  "name": "crc",
+  "name": "@libs-scripts-mep/crc",
   "version": "1.2.0",
   "description": "Abra o terminal, e na pasta do script, execute:",
   "main": "CRC.js",
@@ -11,10 +11,9 @@
     "url": "git+https://github.com/libs-scripts-mep/crc.git"
   },
   "keywords": [
-    "crc",
-    "modbus",
-    "16bit",
-    "8bit"
+    "crc8",
+    "crc16",
+    "modbus"
   ],
   "author": "Lucas Kroth",
   "license": "ISC",
