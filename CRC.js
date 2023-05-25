@@ -23,7 +23,7 @@ class CRC16 {
         }
 
         if (outType == "string") {
-            crc = this.HexToString(crc)
+            crc = CRCUtils.HexToString(crc)
         }
 
         return crc
@@ -95,7 +95,7 @@ class CRCUtils {
         let low = (crc & 0xFF).toString(16).toUpperCase()
         while (low.length < 2) low = "0" + low
 
-        crc = `${low} ${high}`
+        return crc = `${low} ${high}`
     }
 
     static HextoDecimal(d) {
