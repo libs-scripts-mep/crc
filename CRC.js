@@ -1,4 +1,4 @@
-class CRC16 {
+export class CRC16 {
     static Modbus(buffer, outType = "number") {
 
         let crc = 0xFFFF
@@ -30,7 +30,7 @@ class CRC16 {
     }
 }
 
-class CRC8 {
+export class CRC8 {
     static Calculate(buffer, inv = false, fullStr = false, poly = 0x07, init = 0xFF) {
 
         let crc = 0
@@ -85,7 +85,7 @@ class CRC8 {
 
 }
 
-class CRCUtils {
+export class CRCUtils {
 
     static HexToString(crc) {
         let high = (crc & 0xFF00).toString(16).toUpperCase()
